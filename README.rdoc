@@ -1,0 +1,4 @@
+List of sample codes for understanding basics of backbone js.
+
+Detailed explaination for each sample codes can be found at:
+link:http://www.codebeerstartups.com/a-complete-guide-for-learning-backbone-js/
