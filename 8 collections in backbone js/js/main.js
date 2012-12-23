@@ -44,4 +44,6 @@ var peopleCollection = new PeopleCollection([
 	}
 ]);
 
+var peopleView = new PeopleView({ collection: peopleCollection });
+$(document.body).append(peopleView.render().el);   // adding people view in DOM.. Only for demo purpose...
 
