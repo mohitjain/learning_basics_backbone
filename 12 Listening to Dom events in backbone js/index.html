@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form id="addPerson" action="">
+			<input type="text" placeholder="Name of the person">
+			<input type="submit" value="Add Person">
+	</form>
+<script id="personTemplate" type="text/template">
+	<span><strong><%= name %></strong> (<%= age %>) - <%= occupation %></span> 
+	<button class="edit">Edit</button>
+	<button class="delete">Delete</button>
+</script>
+
+<script src="js/underscore.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/backbone.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
