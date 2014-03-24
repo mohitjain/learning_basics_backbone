@@ -24,7 +24,10 @@ var Person = Backbone.Model.extend({
 
 // code that you can use to listen errors
 
-// 
-// person.on('error', function(model,error){
+//You need to do this to enable validation on set:
+//person.set('name',-2,{validate:true});
+
+// Instead of using the error event use the invalid event
+// person.on('invalid', function(model,error){
 // 	console.log(error); 
 // });
